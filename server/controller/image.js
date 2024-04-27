@@ -8,7 +8,7 @@ export const uploadImage= async (request, response)=>{
    try {
         const file = await File.create(fileObj);
         console.log(request);
-        response.status(200).json({ path: `http://file-sharing-frontend-pi.vercel.app/file/${file._id}`})
+        response.status(200).json({ path: `http://file-sharing-brown.vercel.app/file/${file._id}`})
    } catch (error) {
         console.error('error in image',error.message);
         response.status(500).json({error:error.message})
