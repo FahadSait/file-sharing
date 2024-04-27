@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <h1>Share File through Link</h1>
+        <h1>Share File through Link hey hey hey hey</h1>
         <p>Sharing file</p>
         <button onClick={()=>uploadClick()}>Click here</button>
         <input type='file' ref={fileRef} style={{display:'none'}} onChange={(e)=>fileState(e.target.files[0])}/>
